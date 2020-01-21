@@ -29,10 +29,10 @@
 
 #### CURL
 
-* Create a message with:
-  * `curl -X POST -H "Content-Type:application/json" http://localhost:3000/messages -d '{"text":"Hi again, World"}'`
-* Delete a message with:
-  * `curl -X DELETE -H "Content-Type:application/json" http://localhost:3000/messages/1`
+* Create a key with:
+  * `curl -X POST -H "Content-Type:application/json" http://localhost:3000/keys -d '{"key":"key ID", "keyData": "key data"}'`
+* Delete a key with:
+  * `curl -X DELETE -H "Content-Type:application/json" http://localhost:3000/keys/:id`
 
 #### Postman
 
